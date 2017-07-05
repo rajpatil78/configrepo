@@ -7,42 +7,7 @@ eureka:
     hostname: localhost
     appname: eone
   client:    
-    fetch-registry: true
+    fetch-registry: false
     register-with-eureka: false    
     serviceUrl:
-      defaultZone: http://localhost:4003/eureka/,http://localhost:4004/eureka/
- 
-
-  
----
-
-spring:
-  profiles: eurekatwo
-server:
-  port: 4003
-eureka:  
-  instance:
-    appname: etwo
-    hostname: localhost
-  client:
-    fetch-registry: true
-    register-with-eureka: false    
-    serviceUrl:
-      defaultZone: http://localhost:4002/eureka/,http://localhost:4004/eureka/
-    
----
-
-spring:
-  profiles: eurekathree
-server:
-  port: 4004
-eureka:
-  instance:
-    appname: ethree
-    hostname: localhost
-  client:
-    fetch-registry: true
-    register-with-eureka: false    
-    serviceUrl:
-      defaultZone: http://localhost:4002/eureka/,http://localhost:4003/eureka/
-    
+      defaultZone: http://localhost:4002/eureka/
