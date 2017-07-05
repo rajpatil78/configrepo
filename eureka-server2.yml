@@ -1,7 +1,5 @@
 spring:
   profiles: eurekatwo
-server:
-  port: 4003
 eureka:  
   instance:
     appname: etwo
