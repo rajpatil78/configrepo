@@ -1,7 +1,5 @@
 spring:
   profiles: eurekaone
-server:
-  port: 4002  
 eureka:
   instance:
     hostname: localhost
