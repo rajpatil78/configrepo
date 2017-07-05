@@ -1,0 +1,13 @@
+spring:
+  profiles: eurekathree
+server:
+  port: 4004
+eureka:
+  instance:
+    appname: ethree
+    hostname: localhost
+  client:
+    fetch-registry: true
+    register-with-eureka: false    
+    serviceUrl:
+      defaultZone: http://localhost:4002/eureka/,http://localhost:4003/eureka/
