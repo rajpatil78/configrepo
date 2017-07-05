@@ -1,0 +1,13 @@
+spring:
+  profiles: eurekaone
+server:
+  port: 4002  
+eureka:
+  instance:
+    hostname: localhost
+    appname: eone
+  client:    
+    fetch-registry: true
+    register-with-eureka: false    
+    serviceUrl:
+      defaultZone: http://localhost:4003/eureka/,http://localhost:4004/eureka/
