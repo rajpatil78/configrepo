@@ -1,6 +1,6 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://node1:4002/eureka/
+      defaultZone: http://localhost:4002/eureka/
     register-with-eureka: false
     fetch-registry: false
