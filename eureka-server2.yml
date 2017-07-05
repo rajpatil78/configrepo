@@ -1,5 +1,3 @@
-spring:
-  profiles: eurekatwo
 eureka:  
   instance:
     appname: etwo
