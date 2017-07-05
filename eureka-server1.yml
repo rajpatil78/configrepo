@@ -1,5 +1,3 @@
-spring:
-  profiles: eurekaone
 eureka:
   instance:
     hostname: localhost
