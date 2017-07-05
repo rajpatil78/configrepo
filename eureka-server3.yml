@@ -1,7 +1,5 @@
 spring:
   profiles: eurekathree
-server:
-  port: 4004
 eureka:
   instance:
     appname: ethree
