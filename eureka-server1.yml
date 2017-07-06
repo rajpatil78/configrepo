@@ -3,7 +3,7 @@ eureka:
     hostname: localhost
     appname: eone
   client:    
-    fetch-registry: true
+    fetch-registry: false
     register-with-eureka: false
     serviceUrl:
       defaultZone: http://localhost:4003/eureka/,http://localhost:4004/eureka/
