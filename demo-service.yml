@@ -11,3 +11,6 @@ server:
   port: 0
 test:
   message: Welcome to SpringBoot Microservices
+management:
+  security:
+    enabled: false
