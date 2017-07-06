@@ -10,4 +10,4 @@ eureka:
 server:
   port: 0
 test:
-  message: Microservices
+  message: Welcome to SpringBoot Microservices
