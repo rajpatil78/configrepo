@@ -1,9 +1,9 @@
 eureka:  
   instance:
     appname: etwo
-    hostname: localhost
+    hostname: node2
   client:
     fetch-registry: true
     register-with-eureka: false
     serviceUrl:
-      defaultZone: http://localhost:4002/eureka/,http://localhost:4004/eureka/
+      defaultZone: http://node1:4002/eureka/,http://node3:4004/eureka/
