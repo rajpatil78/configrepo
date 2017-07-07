@@ -6,4 +6,4 @@ eureka:
     fetch-registry: true
     register-with-eureka: false
     serviceUrl:
-      defaultZone: http://localhost:node2/eureka/,http://node3:4004/eureka/
+      defaultZone: http://node2:4003/eureka/,http://node3:4004/eureka/
