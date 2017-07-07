@@ -1,9 +1,9 @@
 eureka:
   instance:
-    hostname: localhost
+    hostname: node1
     appname: eone
   client:    
     fetch-registry: true
     register-with-eureka: false
     serviceUrl:
-      defaultZone: http://localhost:4003/eureka/,http://localhost:4004/eureka/
+      defaultZone: http://localhost:node2/eureka/,http://node3:4004/eureka/
