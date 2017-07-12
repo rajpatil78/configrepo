@@ -8,7 +8,7 @@ eureka:
   instance:
     instance-id: ${spring.application.name}:${random.value}
 server:
-  port: 9001
+  port: 4020
 test:
   message: Welcome to SpringBoot Microservices
 management:
